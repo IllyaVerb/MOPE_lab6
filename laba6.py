@@ -261,6 +261,9 @@ x3max = 30
 x03 = (x3min + x3max) / 2
 xl3 = l*(x3max-x03)+x03
 
+# koefficient in function for finding Y experimental, given in start data
+# f(x1,x2,x3) = 3,5+6,6*x1+3,9*x2+1,8*x3+5,3*x1*x1+0,5*x2*x2+4,3*x3*x3+6,0*x1*x2+0,8*x1*x3+9,4*x2*x3+3,0*x1*x2*x3
+#
 #            X1,  x2,  x3,  x1x2,  x1x3, x2x3, x1x2x3, x1^2, x2^2, x3^2
 fxxx = [3.5, 6.6, 3.9, 1.8,   6,   0.8,   9.4,    3,   5.3,   0.5,  4.3]
 
